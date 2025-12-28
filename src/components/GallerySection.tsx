@@ -1,18 +1,18 @@
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=600&q=80",
+    src: "/images/race1.jpg",
     alt: "Race support",
   },
   {
-    src: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&q=80",
+    src: "/images/race2.jpg",
     alt: "Neutral mechanic work",
   },
   {
-    src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=80",
+    src: "/images/community.jpg",
     alt: "Community cycling event",
   },
   {
-    src: "https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?w=600&q=80",
+    src: "/images/workshop.jpg",
     alt: "Bike workshop",
   },
 ];
