@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/60 to-black/70"
         style={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1571068316344-75bc76f77890?w=1920&q=80')`,
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('/images/hero.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

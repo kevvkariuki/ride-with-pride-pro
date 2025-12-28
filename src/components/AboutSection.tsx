@@ -15,7 +15,7 @@ const AboutSection = () => {
         </div>
         <div className="relative">
           <img 
-            src="https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?w=600&q=80" 
+            src="/images/workshop.jpg"
             alt="Kevin Kariuki at work in the workshop"
             className="w-full rounded-xl shadow-2xl hover:scale-[1.02] transition-transform duration-300"
           />
