@@ -11,21 +11,17 @@ const HeroSection = () => {
     <header className="relative min-h-screen flex items-center justify-center text-center text-white overflow-hidden bg-[#061A33]">
 
       {/* Hero Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center animate-hero-pop"
-        style={{
-          backgroundImage: `
-            linear-gradient(
-              rgba(6, 26, 51, 0.72),
-              rgba(6, 26, 51, 0.82)
-            ),
-            url('/images/hero.jpg')
-          `,
-        }}
+      <img
+        src="/images/hero.jpg"
+        alt="Kevin Kariuki"
+        className="absolute inset-0 w-full h-full object-cover object-center animate-hero-pop"
       />
 
       {/* Navy Blue Overlay */}
-      <div className="absolute inset-0 bg-[#061A33]/20" />
+      <div className="absolute inset-0 bg-[#0E4A93]/70" />
+
+      {/* Dark Navy Overlay */}
+      <div className="absolute inset-0 bg-[#061A33]/50" />
 
       {/* Hero Content */}
       <div className="relative z-10 px-6 max-w-4xl mx-auto animate-fade-in">
@@ -80,7 +76,7 @@ const HeroSection = () => {
       {/* Scroll Indicator */}
       <button
         onClick={scrollToAbout}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/80 hover:text-white animate-bounce cursor-pointer"
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/80 hover:text-white animate-bounce cursor-pointer z-20"
         aria-label="Scroll down"
       >
         <ChevronDown className="w-10 h-10" />
