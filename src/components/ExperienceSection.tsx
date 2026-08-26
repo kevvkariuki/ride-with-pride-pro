@@ -1,13 +1,13 @@
 import { Check } from "lucide-react";
 
 const experiences = [
-  "3 years working as a bicycle mechanic in a Nairobi bike shop",
+  "3 years working as a bicycle mechanic in Bicyle Garage Nairobi Workshop",
   "Worked with international riders and professional cycling teams",
   "Neutral Bike Mechanic – CAC African Games 2024 (Kenya)",
   "Neutral Bike Mechanic – CAC African Games 2025 (Team Mauritius)",
   "Supported Team Mauritius to 2 Gold, 1 Bronze & 1 Silver medals",
   "Freelance mechanic at multiple cycling events across Kenya",
-  "Worked all 4 editions of Migration Gravel Race (MGR), Kenya",
+  "Worked 4 editions of Migration Gravel Race as Race Mechanic (MGR) 2023-2026, Kenya",
 ];
 
 const ExperienceSection = () => {

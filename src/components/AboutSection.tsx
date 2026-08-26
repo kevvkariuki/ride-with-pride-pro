@@ -7,7 +7,7 @@ const AboutSection = () => {
       <div className="grid md:grid-cols-2 gap-10 items-center">
         <div className="space-y-6">
           <p className="text-lg text-muted-foreground leading-relaxed">
-            I am a professional bicycle mechanic with over <strong className="text-foreground">3 years of experience</strong> working in a bike shop in Nairobi, Kenya. I have supported <strong className="text-foreground">international riders and teams</strong> and worked across elite-level racing and grassroots cycling events.
+            I am a professional bicycle mechanic with over <strong className="text-foreground">3 years of experience</strong>. I have supported <strong className="text-foreground">international riders and teams</strong> and worked across elite-level racing and grassroots cycling events.
           </p>
           <p className="text-lg text-muted-foreground leading-relaxed">
             Beyond mechanics, I am deeply passionate about community impact, endurance cycling, and giving back through ultra-distance rides supporting education and youth development.

@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 bg-gradient-to-br from-black/70 via-black/60 to-black/70"
         style={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('/images/hero.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('public/images/hero.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
@@ -33,7 +33,7 @@ const HeroSection = () => {
         {/* Social Links */}
         <div className="flex items-center justify-center gap-4 mb-12">
           <a 
-            href="https://instagram.com" 
+            href="https://instagram.com/kevinkariuki_ke" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-primary hover:scale-110 transition-all duration-300"
@@ -42,7 +42,7 @@ const HeroSection = () => {
             <Instagram className="w-6 h-6" />
           </a>
           <a 
-            href="https://wa.me/254700000000" 
+            href="https://wa.me/254715244402" 
             target="_blank" 
             rel="noopener noreferrer"
             className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-primary hover:scale-110 transition-all duration-300"
@@ -51,7 +51,7 @@ const HeroSection = () => {
             <Phone className="w-6 h-6" />
           </a>
           <a 
-            href="mailto:kevin@example.com"
+            href="mailto:kevvkariuki@icloud.com"
             className="p-3 bg-white/10 backdrop-blur-sm rounded-full hover:bg-primary hover:scale-110 transition-all duration-300"
             aria-label="Email"
           >
