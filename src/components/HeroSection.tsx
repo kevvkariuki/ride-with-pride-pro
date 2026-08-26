@@ -1,3 +1,4 @@
+```jsx
 import { ChevronDown, Instagram, Phone, Mail, MapPin } from "lucide-react";
 
 const HeroSection = () => {
@@ -8,7 +9,7 @@ const HeroSection = () => {
   };
 
   return (
-    <header className="relative min-h-screen flex items-center justify-center text-center text-white overflow-hidden bg-[#061A33]">
+    <header className="relative min-h-screen flex items-center justify-center text-center text-white overflow-hidden">
 
       {/* Hero Background Image */}
       <img
@@ -16,12 +17,6 @@ const HeroSection = () => {
         alt="Kevin Kariuki"
         className="absolute inset-0 w-full h-full object-cover object-center animate-hero-pop"
       />
-
-      {/* Navy Blue Overlay */}
-      <div className="absolute inset-0 bg-[#0E4A93]/70" />
-
-      {/* Dark Navy Overlay */}
-      <div className="absolute inset-0 bg-[#061A33]/50" />
 
       {/* Hero Content */}
       <div className="relative z-10 px-6 max-w-4xl mx-auto animate-fade-in">
@@ -87,3 +82,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+```
